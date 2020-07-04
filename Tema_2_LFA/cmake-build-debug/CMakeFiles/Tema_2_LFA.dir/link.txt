@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -std=c++11 -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC -D_FORTIFY_SOURCE=2 -g   CMakeFiles/Tema_2_LFA.dir/main.cpp.o CMakeFiles/Tema_2_LFA.dir/Automat.cpp.o  -o Tema_2_LFA 

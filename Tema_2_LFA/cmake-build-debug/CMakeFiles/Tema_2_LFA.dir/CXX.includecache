@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zamfirescu/CLionProjects/Tema 2 LFA/Automat.cpp
+Automat.h
+/home/zamfirescu/CLionProjects/Tema 2 LFA/Automat.h
+bits/stdc++.h
+-
+
+/home/zamfirescu/CLionProjects/Tema 2 LFA/Automat.h
+vector
+-
+bits/stdc++.h
+-
+
+/home/zamfirescu/CLionProjects/Tema 2 LFA/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+Automat.h
+/home/zamfirescu/CLionProjects/Tema 2 LFA/Automat.h
+

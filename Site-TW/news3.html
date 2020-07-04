@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, inial-scale=1.0">
+    <title>Tech News</title>
+    <link rel="stylesheet" href="./CSS/news3.css">
+    
+</head>
+
+<body>
+    
+    <h1 id = "title" style="text-align: center;">Tech News </h1>
+
+    <div class="dropdown">
+        <button class="dropbtn">Schimba culoarea</button>
+        <div class="dropdown-content">
+        <a id = "1"style="background-color:red;" onclick="SchimbaculoareR()" onmouseover="Changecursor()" >Red</a>
+        <a id = "2"style="background-color: blue;" onclick="SchimbaculoareB()"onmouseover="Changecursor()">Blue</a>
+        <a id = "3"style="background-color: green;" onclick="SchimbaculoareG()" onmouseover="Changecursor()">Green</a>
+        <a id = "4"style="background-color: black;"  onmouseover="Changecursor()">Black</a>
+        </div>
+      </div>
+      
+    <br>
+    <div id="content" >
+        <p>iPhone 12 Pro ar urma sa fie lansat de catre compania Apple cu un ecran ProMotion care are rata de refresh de 120 Hz, adica exact precum in cazul tabletelor iPad Pro, sau cel putin asta ne spune un zvon aparut astazi in legatura cu noile telefoane.
+            Mai sus aveti un clip video al unui cunoscut YouTuber care afirma ca iPhone 12 ar urma sa vina cu o serie de schimbari mari de la compania Apple, Face ID urmand a fi deasemenea imbunatatit, dar asta se intampla in cam fiecare an, deci era ceva asteptat.</p>
+        <br>
+            <p>iPhone 12 Pro ar urma sa vina si cu zoom de pana la 3X pentru camera sa principala, aceasta urmand a fi compusa din patru senzori de imagine, cel LiDAR fiind adaugat anul acesta pentru a aduce o serie de noi functii, in special pentru realitate augmentata.</p>
+        <br>
+        <p>Lista celor mai spectaculoase produse apple: </p> 
+        <ul id = "lista" onclick="InversareLista()">
+            <li>Iphone 11 Max Pro</li>
+            <li>MacBook pro 16 inch</li>
+            <li>Ipad 12"</li>
+        </ul>
+
+       <p>Am pregatit un quiz sa vedem cat de bine cunoasteti compania Apple:</p>
+    </div>
+    
+    <div class="grid">
+        <div id="quiz">
+            <h6>Sa vedem ce stii despre acesta companie.</h6>
+            <hr style="margin-bottom: 20px">
+ 
+            <p id="question"></p>
+ 
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+ 
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Intrebarea x din y</p>
+            </footer>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p>Pentru ati afla varsa intru data nasterii: </p>
+            Data nasteri: <input id="date" type="text"/>
+            <button id='varsta' onclick="ages()">Varstă!</button>
+            <p id="age"> &nbsp; </p>
+            <p >&nbsp;</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="./JavaScript/site.js"></script>
+</body>

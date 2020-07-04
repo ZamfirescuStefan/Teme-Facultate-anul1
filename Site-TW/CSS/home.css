@@ -1,0 +1,168 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(219, 217, 217);
+    padding: 0px;
+}
+
+.nav_home{
+    margin: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(43, 43, 189);
+    position: sticky;
+    list-style-type: none;
+}
+
+.nav_home li{
+    float: left;
+}
+
+#title{
+    text-align: center;
+    text-shadow: 2px 3px gray;
+    font-style: oblique;
+    font-size: 45px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-top: 0em;
+    padding: 25px;
+}
+
+.nav_home li a{
+    color: white;
+    display: block;
+    background-color:rgb(43, 43, 189);
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.nav_home li a:hover {
+    background-color: rgb(122, 185, 228)
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnimg{
+    float: left;
+    width: 490px;
+    height: 320px;
+    padding: 10px;
+}
+
+.columntext{
+    float: left;
+    width: 55%;
+    height: 320px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.photo{
+    border: 5px solid blue;
+    margin-left: 20px;
+    width: 450px;
+    height: 300px;    
+}
+
+.butonH {
+    background-color: blue;
+    position: relative;
+    top: 13%;
+    border: none;
+    color: White;
+    text-align: center;
+    font-size: 12px;
+    /* padding: 12px; */
+    /* height: 40px;  */
+    /* width: 200px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: right;
+    font-family: monospace;
+    box-shadow: 2px 4px #999;
+}
+.butonH span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.butonH span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.butonH:hover span {
+    padding-right: 25px;
+  }
+  
+.buttonH:hover span:after {
+    opacity: 1; 
+    right: 0;
+  }
+
+.butonH a{
+    color: white;
+    display: flex;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    width: 186px;
+    height: 40px;
+}
+
+.butonH:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+.titlu_articol{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1200px){
+    .columnimg{
+        width: 100%;
+        text-align: center;
+    }
+    .columntext{
+        width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 750px){
+    .row {
+        height: 648px;
+    }
+    .columntext{
+        width: 82%;
+    }
+    
+}

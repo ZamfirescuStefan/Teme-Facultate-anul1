@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Tema_2_SD.dir/main.cpp.o  -o Tema_2_SD 

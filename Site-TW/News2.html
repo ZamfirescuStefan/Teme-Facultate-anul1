@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tech News</title>
+    <link rel="stylesheet" href="./CSS/News2.css">
+    <script src="./JavaScript/News2.js"></script>
+</head>
+<body id="bd">
+  <div id="OverWord" class="DummyClassWord"><p id = "Text_alert">3 </p></div>
+  <div id="OverLay" class="DummyClass"></div>
+  <button id="Bground" onclick="Change_Background()">Change Background</button>
+
+    <div class="content">
+        <nav >
+            <ul class="nav_home">
+                <li> <a href="home.html">Home</a> </li>
+                <li> <a href="News1.html">Stirea zilei</a></li>
+                <li style="float: right;"> <a href="about_us.html">About us</a></li>
+                   
+            </ul>
+        </nav>
+        <h1 id = "title"></h1>
+        <div class="row">
+            <div class="column">
+              <img src="./Photos/34.jpg" alt="Super" style="width: 280px;height:186px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./Photos/galerie2.jpeg" alt="Super super wow" style="width: 280px; height:186px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./Photos/galerie3.jpeg" alt="Galaxy Fold leaks" style="widows: 280px; height:186px;" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./Photos/external-content.duckduckgo.com.jpeg" alt="Tableta" style="width:280px; height:186px;" onclick="myFunction(this);">
+            </div>
+          </div>
+          
+          <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100% ">
+          </div>
+        <div id="continut">
+        <p>Galaxy Fold a fost telefonul despre care se poate spune că a dat tonul pentru mania mobilelor cu ecran pliabil. Un ton ce sună parțial de parcă cineva ar fi scăpat un set de ceai pe scări. Dar Samsung nu renunță la idee, lucrând de ceva timp la Galaxy Fold 2. Iar în ultima vreme au început să își croiască drum pe internet câteva informații despre acest nou telefon.</p>
+        <br>
+        <p>Conform zvonurilor, noul telefon va avea un ecran pliabil de 7.59 inch, cu o rezoluție de 2213×1689 și cu ceva neașteptat. Nu, nu rezistență la praf (deși sper să aibă așa ceva) ci capacitatea de a funcționa la 120Hz. Aceasta este noua tendință pentru telefoane, așa că era de așteptat ca un dispozitiv ce va costa cât o mașină să aibă un ecran mai rapid ca unul standard de 60Hz. Alături ce acest ecran masiv va fi și cel „mic”, nepliabil, de doar 60Hz, cu o dimensiune nu tocmai mică de 6.23 inch și o rezoluție de 2267×819.</p>
+        <br>
+        <p>Telefonul ar trebui să vină la pachet și cu un S-Pen, ceea ce ar trebui să îl facă mai util pentru cei care sperau ca dispozitivul să fie un înlocuitor pentru seria Note, nu doar un bibelou.</p>
+      </div>
+        <button id="Citeste" style="background-color: greenyellow;" onclick="Display_Txt_File()">Citeste mai departe</button>
+        <iframe id = "iframe" width="560" height="315" src="https://www.youtube.com/embed/G_3m26ZJV0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</iframe>
+      <footer>
+        <div id='timer'></div>
+      </footer>
+    </div>
+    
+</body>

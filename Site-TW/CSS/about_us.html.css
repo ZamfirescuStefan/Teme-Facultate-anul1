@@ -1,0 +1,109 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(219, 217, 217);
+    padding: 0px;
+}
+
+
+.nav_home{
+    margin: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(43, 43, 189);
+    position: sticky;
+    list-style-type: none;
+}
+
+.nav_home li{
+    float: left;
+
+}
+#title{
+    text-align: center;
+    text-shadow: 2px 3px gray;
+    font-style: oblique;
+    font-size: 45px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-top: 0em;
+    padding: 25px;
+}
+
+.nav_home li a{
+    color: white;
+    display: block;
+    background-color:rgb(43, 43, 189);
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.nav_home li a:hover {
+    background-color: rgb(122, 185, 228)
+}
+
+.h4{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#tabel{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+#tabel td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+#tabel th{
+        text-align: center;
+        margin: 0px;
+}
+
+#tabel th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+}
+#tabel td{
+    text-align: center; 
+    margin: 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#tabel tr:nth-child(2n + 1){
+    background-color:#6699cc;
+    color: white;
+}
+
+#tabel tr:nth-child(2n ){
+    background-color: darkgray;
+    color: white;
+}
+#tabel tr:hover{
+    background-color: rgb(19, 163, 156);
+}
+
+#luni{
+    color: white;
+    display: block;
+    background-color:rgb(65, 153, 194);
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 30px;   
+    margin-left: 60px;
+}

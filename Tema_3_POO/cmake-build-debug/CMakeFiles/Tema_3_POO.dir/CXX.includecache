@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContBancar.h
+string
+-
+ostream
+-
+istream
+-
+exception
+-
+vector
+-
+Exception.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/Exception.h
+Data.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/Data.h
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContCurent.h
+iostream
+-
+ContBancar.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContBancar.h
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContEconomii.h
+ContBancar.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContBancar.h
+iostream
+-
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/Data.h
+string
+-
+Exception.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/Exception.h
+vector
+-
+ostream
+-
+iostream
+-
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/Exception.h
+string
+-
+utility
+-
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/GestionareConturi.h
+vector
+-
+iostream
+-
+unordered_map
+-
+ContEconomii.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContEconomii.h
+
+/home/zamfirescu/CLionProjects/Tema 3 POO/main.cpp
+iostream
+-
+string
+-
+bits/stdc++.h
+-
+ContBancar.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContBancar.h
+GestionareConturi.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/GestionareConturi.h
+ContEconomii.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContEconomii.h
+ContCurent.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/ContCurent.h
+Data.h
+/home/zamfirescu/CLionProjects/Tema 3 POO/Data.h
+

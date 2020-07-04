@@ -1,0 +1,81 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    background-color: rgb(219, 217, 217);
+    padding: 0px;
+}
+
+.nav_home{
+    margin: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(43, 43, 189);
+    position: sticky;
+    list-style-type: none;
+}
+
+.nav_home li{
+    float: left;
+}
+
+.nav_home li a{
+    color: white;
+    display: block;
+    background-color:rgb(43, 43, 189);
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.nav_home li a:hover {
+    background-color: rgb(122, 185, 228)
+}
+
+#title{
+    text-align: center;
+    text-shadow: silver;
+    font-style: oblique;
+    font-size: 45px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-top: 0em;
+    padding: 25px;
+}
+
+.paragraf{
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#p_adaugat{
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#citesteMM{
+    color: white;
+    display: block;
+    background-color:rgb(56, 56, 66);
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-left: 60px; 
+    margin-top: 22px;  
+}
+
+#timer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+  }
